@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Cart Page</title>
+
+</head>
+
+<body>
+    <!-- Your code goes here -->
+    <nav>
+        <div class="logo">Marmeto</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="icons">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span><i class="fa-regular fa-heart"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+        </div>
+    </nav>
+    <header>
+        <div class="cart-header">
+            <h1>Cart</h1>
+            <p><a href="#">Home</a> > Cart</p>
+        </div>
+    </header>
+    <main>
+        <div class="cart-content">
+            <div class="cart-items">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--<tr>
+                            <td class="product-info">
+                                <img src="#" alt="Asgaard sofa">
+                                <span></span>
+                            </td>
+                            <td></td>
+                            <td>
+                                <input type="number" value="1" min="1" data-id="1">
+                            </td>
+                            <td class="sub-total"></td>
+                            <td>
+                                <span class="remove-item" data-id="1"><i class="fa-solid fa-trash"></i></span>
+                            </td>
+                        </tr>-->
+                    </tbody>
+                </table>
+            </div>
+            <div class="cart-totals">
+                <h2>Cart Totals</h2>
+                <div class="totals">
+                    <p>Subtotal: <span id="subtotal">Rs. 0</span></p>
+                    <p>Total: <span id="total">Rs. 0</span></p>
+                </div>
+                <button id="checkout-btn">Check Out</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="features">
+            <div class="feature-item">
+                <span><i class="fa-solid fa-trophy"></i></span>
+                <h4>High Quality</h4>
+                <p>crafted from top materials</p>
+            </div>
+            <div class="feature-item">
+                <span><i class="fa-solid fa-check"></i></span>
+                <h4>Warranty Protection</h4>
+                <p>Over 2 years</p>
+            </div>
+            <div class="feature-item">
+                <span><i class="fa-solid fa-truck-fast"></i></span>
+                <h4>Free Shipping</h4>
+                <p>Order over $150</p>
+            </div>
+            <div class="feature-item">
+                <span><i class="fa-solid fa-headset"></i></span>
+                <h4>24/7 Support</h4>
+                <p>Dedicated support</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
